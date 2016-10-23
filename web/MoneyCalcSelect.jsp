@@ -4,22 +4,12 @@
 <form method="POST"
 	action="AddPeople.do">
 	Add People<p>
-	Name:
-	<select name="name" size="1">
-		<option value="light"> light </option>
-		<option value="amber"> amber </option>
-		<option value="brown"> brown </option>
-		<option value="dark"> dark </option>
-	</select>
-	<br><br>
+	Name: <input type="text" name="name">
+	
+	<br>
 	
 	
-	Cash:
-	<select name="cash" size="1">
-		<option value=1> 1 </option>
-		<option value=100> 100 </option>
-	
-	</select>
+	Cash: <input type="text" name="cash"
 	<br><br>
 
 	<center>
