@@ -1,13 +1,14 @@
 <%@ page import="java.util.*" %>
+<%@ taglib prefix="myTags" tagdir="/WEB-INF/tags" %>
 
 <html>
 <body>
-<%@ include file="Header.jsp"%><br>
+<myTags:Header/><br>
 
 <h1 align="center">MoneyCalc JSP main </h1>
 <p>
 <%@ include file="MoneyCalcSelect.jsp"%><br>
 
-<%@ include file="Footer.jsp"%><br>
+<myTags:Footer/><br>
 </body>
 </html>
